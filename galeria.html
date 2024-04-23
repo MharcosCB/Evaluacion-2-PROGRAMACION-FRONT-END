@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluacion 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="css/Estilos.css" rel="stylesheet">
+</head>
+<body class="bg-primary bg-opacity-50">
+  <!--Inicio menu-->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-primary bg-gradient">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="imagenes/Logo.jpg" class="logotipo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <p class="nav-link fw-bold text-white">Martillo Dorado</p>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-white" href="login.html">Iniciar Sesión</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-white" href="galeria.html">Galería</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      <!--final Menu -->
+      <!---Inicio carousel-->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade mt-3 mx-auto">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Imagenes/promo1.png" class="d-block w-100" alt="Imagen Promo 1">
+          </div>
+          <div class="carousel-item">
+            <img src="Imagenes/promo2.png" class="d-block w-100" alt="Imagen Promo 2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--- Fin carousel -->
+      <!--Inicio Productos-->
+      <div class="row row-cols-1 mt-4 row-cols-md-3 g-4">
+        <div class="card mt-4 bg-primary">
+            <div class="card-body mx-auto text-white">
+              <h5 class="card-title textogaleria">Producto:</h5>
+              <p class="card-text  textogaleria ">Martillo</p>
+              <br> 
+              <h5 class="card-title textogaleria">Precio:</h5>
+              <p class="card-text textogaleria">$3000</p>
+            </div>
+            <img src="Imagenes/Producto1.jpg" class="card-img" alt="producto1">
+            <form class="row">
+              <label for="inputnumber" class="col-form-label text-center text-white">Cantidad</label>
+              <div class="col-sm-4 mx-auto">
+                <input type="number" class="form-control form-control-sm " id="inputnumber" min="1">
+                <button type="submit" class="btn btn-danger mb-2 mt-2 m-3">Comprar</button>  
+              </div>
+              
+            </form>
+          </div>
+          <div class="card mt-4 bg-primary">
+            <div class="card-body mx-auto text-white" >
+              <h5 class="card-title textogaleria">Producto:</h5>
+              <p class="card-text  textogaleria ">Taladro</p>
+              <br> 
+              <h5 class="card-title textogaleria">Precio:</h5>
+              <p class="card-text textogaleria">$20000</p>
+            </div>
+            <img src="Imagenes/Producto2.jpg" class="card-img-top " alt="producto2">
+            <form class="row">
+              <label for="inputnumber" class="col-form-label text-center text-white">Cantidad</label>
+              <div class="col-sm-4 mx-auto">
+                <input type="number" class="form-control form-control-sm " id="inputnumber" min="1">
+                <button type="submit" class="btn btn-danger mb-2 mt-2 m-3">Comprar</button>
+              </div>
+            </form>
+          </div>
+          <div class="card mt-4 bg-primary">
+            <div class="card-body mx-auto text-white" >
+              <h5 class="card-title textogaleria">Producto:</h5>
+              <p class="card-text  textogaleria ">Serrucho</p>
+              <br> 
+              <h5 class="card-title textogaleria">Precio:</h5>
+              <p class="card-text textogaleria">$8000</p>
+            </div>
+            <img src="Imagenes/Producto3.jpg" class="card-img-top " alt="producto3">
+            <form class="row">
+              <label for="inputnumber" class="col-form-label text-center text-white">Cantidad</label>
+              <div class="col-sm-4 mx-auto">
+                <input type="number" class="form-control form-control-sm " id="inputnumber" min="1">
+                <button type="submit" class="btn btn-danger mb-2 mt-2 m-3">Comprar</button>
+              </div>
+            </form>
+          </div>
+          <div class="card mt-4 bg-primary">
+            <div class="card-body mx-auto text-white" >
+              <h5 class="card-title textogaleria">Producto:</h5>
+              <p class="card-text  textogaleria ">Sierra electrica</p>
+              <br> 
+              <h5 class="card-title textogaleria">Precio:</h5>
+              <p class="card-text textogaleria">$35000</p>
+            </div>
+            <img src="Imagenes/Producto4.jpg" class="card-img-top " alt="producto4">
+            <form class="row">
+              <label for="inputnumber" class="col-form-label text-center text-white">Cantidad</label>
+              <div class="col-sm-4 mx-auto">
+                <input type="number" class="form-control form-control-sm " id="inputnumber" min="1">
+                <button type="submit" class="btn btn-danger mb-2 mt-2 m-3">Comprar</button>
+              </div>
+            </form>
+          </div>
+          <div class="card mt-4 bg-primary">
+            <div class="card-body mx-auto text-white" >
+              <h5 class="card-title textogaleria">Producto:</h5>
+              <p class="card-text  textogaleria ">Kit de herramientas</p>
+              <br> 
+              <h5 class="card-title textogaleria">Precio:</h5>
+              <p class="card-text textogaleria">$20000</p>
+            </div>
+            <img src="Imagenes/Producto5.jpg" class="card-img-top " alt="producto5">
+            <form class="row">
+              <label for="inputnumber" class="col-form-label text-center text-white">Cantidad</label>
+              <div class="col-sm-4 mx-auto">
+                <input type="number" class="form-control form-control-sm " id="inputnumber" min="1">
+                <button type="submit" class="btn btn-danger mb-2 mt-2 m-3">Comprar</button>
+            </div>
+            </form>
+          </div>
+          <div class="card mt-4 bg-primary">
+            <div class="card-body mx-auto text-white" >
+              <h5 class="card-title textogaleria">Producto:</h5>
+              <p class="card-text  textogaleria ">Caja de Herramientas</p>
+              <br> 
+              <h5 class="card-title textogaleria">Precio:</h5>
+              <p class="card-text textogaleria">$5000</p>
+            </div>
+            <img src="Imagenes/Producto6.jpg" class="card-img-top " alt="producto6">
+            <form class="row">
+              <label for="inputnumber" class="col-form-label text-center text-white">Cantidad</label>
+              <div class="col-sm-4 mx-auto">
+                <input type="number" class="form-control form-control-sm " id="inputnumber" min="1">
+                <button type="submit" class="btn btn-danger mb-2 mt-2 m-3">Comprar</button>
+              </div>
+            </form>
+          </div>
+      </div>
+      <!--Final productos-->
+      <!--inicio footer-->
+      <footer>
+        <nav class="navbar navbar-expand-lg bg-primary bg-gradient text-white mt-5">
+         <p class="mx-auto"> Asignatura: Programacion Front-End</p>
+        </nav>
+      </footer>
+      <!--Final footer-->
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+</body>
+</html>

@@ -1,0 +1,25 @@
+.logotipo{
+    width: 100px;
+    padding-left: 10%;
+}
+.bg-login{
+    background-color:rgb(77, 81, 151);
+
+}
+.tamañocartas{
+    max-width: 1000px;
+}
+
+.textogaleria{
+    display: inline-block;
+    text-align: left;
+}
+
+.tamañoimagenes{
+    width: 300px;
+    height: 250px;
+}
+.tamañoimagenes2{
+    width: 250px;
+    height: 250px;
+}
